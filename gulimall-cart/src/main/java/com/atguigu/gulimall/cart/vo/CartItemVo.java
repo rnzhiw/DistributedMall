@@ -21,7 +21,7 @@ public class CartItemVo {
     private String image;
 
     /**
-     * 商品套餐属性
+     * 商品套餐属性:比如选择了颜色和版本
      */
     private List<String> skuAttrValues;
 

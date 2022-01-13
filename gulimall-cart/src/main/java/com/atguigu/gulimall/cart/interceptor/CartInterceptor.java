@@ -87,6 +87,7 @@ public class CartInterceptor implements HandlerInterceptor {
         UserInfoTo userInfoTo = toThreadLocal.get();
 
         //如果没有临时用户一定保存一个临时用户
+        //不会一直自动续期
         if (!userInfoTo.getTempUser()) {
             //创建一个cookie
             Cookie cookie = new Cookie(TEMP_USER_COOKIE_NAME, userInfoTo.getUserKey());

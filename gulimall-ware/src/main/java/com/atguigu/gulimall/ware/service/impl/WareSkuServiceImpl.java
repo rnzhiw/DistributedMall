@@ -189,7 +189,7 @@ public class WareSkuServiceImpl extends ServiceImpl<WareSkuDao, WareSkuEntity> i
             for (Long wareId : wareIds) {
                 //锁定成功就返回1，失败就返回0
                 //返回影响的行数
-                Long count = wareSkuDao.lockSkuStock    (skuId,wareId,hasStock.getNum());
+                Long count = wareSkuDao.lockSkuStock(skuId,wareId,hasStock.getNum());
                 if (count == 1) {
                     skuStocked = true;
                     WareOrderTaskDetailEntity taskDetailEntity = WareOrderTaskDetailEntity.builder()

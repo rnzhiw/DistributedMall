@@ -245,7 +245,7 @@ public class SpuInfoServiceImpl extends ServiceImpl<SpuInfoDao, SpuInfoEntity> i
         //1、查出当前spuId对应的所有sku信息,品牌的名字
         List<SkuInfoEntity> skuInfoEntities = skuInfoService.getSkusBySpuId(spuId);
 
-        //TODO 4、查出当前sku的所有可以被用来检索的规格属性
+        //TODO 4、查出当前sku的所有可以被用来检索的规格属性（提取出来查一遍就可以了）
         List<ProductAttrValueEntity> baseAttrs = productAttrValueService.baseAttrListforspu(spuId);
 
         List<Long> attrIds = baseAttrs.stream().map(attr -> {

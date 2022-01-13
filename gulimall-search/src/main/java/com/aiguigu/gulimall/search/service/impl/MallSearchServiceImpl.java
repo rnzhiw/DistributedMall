@@ -255,6 +255,7 @@ public class MallSearchServiceImpl implements MallSearchService {
      */
     private SearchRequest buildSearchRequest(SearchParam param) {
 
+        //构建DSL语句
         SearchSourceBuilder searchSourceBuilder = new SearchSourceBuilder();
 
         /**

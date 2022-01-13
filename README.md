@@ -67,18 +67,12 @@ gulimall
 
 ### 开发环境
 
-| 工具          | 版本号 |
-| :------------ | ------ |
-| JDK           | 1.8    |
-| Mysql         | 5.7    |
-| Redis         | Redis  |
-| Elasticsearch | 7.6.2  |
-| Kibana        | 7.6.2  |
-| RabbitMQ      | 3.8.5  |
-| Nginx         | 1.1.6  |
-| Sentinel      | 默认   |
-| Sleuth        | 默认   |
-| Zipkin        | 默认   |
+| 工具     | 版本号 |
+| :------- | ------ |
+| JDK      | 1.8    |
+| Mysql    | 5.7    |
+| Redis    | Redis  |
+| RabbitMQ | 3.8.5  |
 
 ## 搭建步骤
 
