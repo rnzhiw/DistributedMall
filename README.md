@@ -29,8 +29,7 @@ gulimall
 | SpringCloud        | 微服务架构               | Greenwich.SR3                                                |
 | SpringCloudAlibaba | 一系列组件               | 2.1.0.RELEASE                                                |
 | MyBatis-Plus       | ORM框架                  | 默认                                                         |
-| renren-generator   | 人人开源项目的代码生成器 | 下载地址：https://gitee.com/renrenio/renren-generator?_from=gitee_search |
-| Elasticsearch      | 搜索引擎                 | 7.4.2                                                        |
+| renren-generator   | 人人开源项目的代码生成器 | 下载地址：https://gitee.com/renrenio/renren-generator?_from=gitee_search |                                                    |
 | RabbitMQ           | 消息队列                 | latest                                                       |
 | Springsession      | 分布式缓存               | 默认                                                         |
 | Redisson           | 分布式锁                 | 默认                                                         |
@@ -80,7 +79,6 @@ gulimall
 
 ```
 192.168.56.10 gulimall.com
-192.168.56.10 search.gulimall.com
 192.168.56.10 item.gulimall.com
 192.168.56.10 auth.gulimall.com
 192.168.56.10 cart.gulimall.com
