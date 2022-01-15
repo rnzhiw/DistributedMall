@@ -12,7 +12,6 @@ gulimall
 ├── gulimall-gateway -- 统一配置网关
 ├── gulimall-order -- 订单服务
 ├── gulimall-product -- 商品服务
-├── gulimall-search -- 检索服务
 ├── gulimall-seckill -- 秒杀服务
 ├── gulimall-third-party -- 第三方服务（对象存储、短信）
 ├── gulimall-ware -- 仓储服务
